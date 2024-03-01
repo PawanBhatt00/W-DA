@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(16, 139, 177);
+}
+h1{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 200;
+    font-size: 150px;
+    color: rgb(60, 53, 35);
+}
+h3{
+	text-align: center;
+    text-transform: uppercase;
+    font-weight: 70;
+    font-size: 35px;
+    color: rgb(151, 43, 206);
+}
+a{
+    text-decoration:underline;
+    color:rgb(209, 3, 3);
+}
+main{
+    height: 70%;
+}
+header{
+	margin-bottom: 7vh;
+}
+footer{
+    text-align: center;
+    text-transform: capitalize;
+    color: rgb(92, 226, 253);
+}
+.chapters{
+    height: 10%;
+	width: 40vw;
+    padding: 2%;
+	margin-bottom: 2rem;
+    border-radius: 20px;
+	display:flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    font-size: 75px;
+    box-shadow: 2px 0px 20px #708aba;
+    border:2px solid rgb(245, 232, 199);
+	transition: ease-in .2s box-shadow,ease-in .2s background-color;
+    text-shadow: 0 10px 50px rgb(171, 167, 155);
+}
+.chapters:hover{
+	background-color: rgb(67, 85, 133);
+    box-shadow: 10px 0px 10px rgb(0, 255, 64);
+}
+.container{
+    margin: 0 30% 2% 30%;
+}
+.glow{
+	text-shadow: 0px 0px 100px rgb(255, 0, 225);
+}
+.under{
+	text-decoration:line-through 1px;
+}
